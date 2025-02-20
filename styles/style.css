@@ -51,7 +51,7 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 710px 30px 400px;
-  grid-template-rows: 135px 535px;
+  grid-template-rows: 333px 535px;
 }
 
 .result {
