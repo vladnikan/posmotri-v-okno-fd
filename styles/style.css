@@ -230,7 +230,6 @@ ol {
 
 .search-form__label span::after {
   content: "";
-  display: block;
   width: 16px;
   height: 16px;
   background-color: white;
