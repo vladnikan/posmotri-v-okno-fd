@@ -10,6 +10,8 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -51,7 +53,7 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 710px 30px 400px;
-  grid-template-rows: 333px 535px;
+  margin: auto;
 }
 
 .result {
