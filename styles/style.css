@@ -153,10 +153,6 @@ ol {
   color: #545050;
 }
 
-.search-form__fieldset {
-  border: none;
-}
-
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -171,6 +167,7 @@ ol {
 
 .search-form__fieldset {
   width: 225px;
+  border: none;
 }
 
 .search-form__textfield {
@@ -194,19 +191,19 @@ ol {
 }
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
-  outline: 5px solid white; 
-  outline-offset: 2px; 
-  padding: 0.5px; 
+  outline: 5px solid white;
+  outline-offset: 2px;
+  padding: 0.5px;
 }
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
-  outline: 2px solid white; 
+  outline: 2px solid white;
   outline-offset: 0.5px;
 }
 
-
 .search-form__checkbox-list {
   display: flex;
+  gap: 15px;
 }
 
 /* Факультативный шаг.*/
@@ -273,7 +270,7 @@ input[type="checkbox"] + span {
 }
 
 .button:focus-visible {
-  outline: 1px solid white; 
+  outline: 1px solid white;
   outline-offset: 1px;
 }
 
@@ -286,11 +283,6 @@ input[type="checkbox"] + span {
   width: 194px;
   height: 34px;
   align-self: flex-end;
-}
-
-.search-form__checkbox-list {
-  display: flex;
-  gap: 15px;
 }
 
 .search-form__label input {
