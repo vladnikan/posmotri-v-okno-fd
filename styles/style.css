@@ -220,18 +220,20 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
 }
 
 .search-form__label span::after {
   content: "";
-  position: absolute;
-  width: 17px;
-  height: 17px;
+  display: block;
+  width: 16px;
+  height: 16px;
   background-color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: none;
 }
 
