@@ -96,8 +96,8 @@ ol {
 }
 
 .content__list-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   height: 298px;
   position: relative;
   overflow: auto;
@@ -119,11 +119,6 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
-}
-
-.content__card-link {
-  text-decoration: none;
-  color: inherit;
 }
 
 .content__video-card-title {
